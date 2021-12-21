@@ -3,7 +3,7 @@
 # Each ``domain`` object has the following structure:
 #   - domain: the domain of the object
 #   - type: the purpose of the domain (landing, service, user-content)
-#   - ring: the ring of the domain: 0 - core (accessed by users), 1 - services (used by core), 2 - (created by users, used by 1 and 0)
+#   - ring: the ring of the domain: 0 - core (u. accessed by users), 1 - services (u. used by core), 2 - (u. created by users, used by 1 and 0)
 #           when a domain is deprecated, it's ring could be set to any negative number (preferably -1)
 
 domain-set: 0
