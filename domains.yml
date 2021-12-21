@@ -1,0 +1,19 @@
+domain-set: 0
+private: false
+domains:
+  - domain: techiepi.dev
+    type: landing
+    ring: 0
+  - domain: 3.1416.info
+    type: landing
+    ring: 0
+  - domain: *.u.1416.info
+    type: user-content
+    ring: 2
+  - domain: *.1416.info
+    type: service
+    ring: 1
+  - domain: *.techiepi.dev
+    type: service
+    ring: -1
+    
