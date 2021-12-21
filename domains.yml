@@ -16,4 +16,10 @@ domains:
   - domain: *.techiepi.dev
     type: service
     ring: -1
+  - domain: whale-chat.com
+    type: landing
+    ring: -1
+  - domain: *.whale-chat.com
+    type: service
+    ring: -1
     
