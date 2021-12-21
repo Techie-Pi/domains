@@ -9,6 +9,9 @@
 domain-set: 0
 private: false
 domains:
+  - domain: analytics.1416.info
+    type: service
+    ring: 0
   - domain: techiepi.dev
     type: landing
     ring: 0
