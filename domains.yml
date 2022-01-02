@@ -19,19 +19,19 @@ domains:
   - domain: 3.1416.info
     type: landing
     ring: 0
-  - domain: "<any>.u.1416.info"
+  - domain: "*.u.1416.info"
     type: user-content
     ring: 2
-  - domain: "<any>.1416.info"
+  - domain: "*.1416.info"
     type: service
     ring: 1
-  - domain: *.techiepi.dev
+  - domain: "*.techiepi.dev"
     type: service
     ring: -1
   - domain: whale-chat.com
     type: landing
     ring: -1
-  - domain: "<any>.whale-chat.com"
+  - domain: "*.whale-chat.com"
     type: service
     ring: -1
     
